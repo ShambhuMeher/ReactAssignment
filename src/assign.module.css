@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbox{
+    height: 73px;
+    width: 100%;
+    background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: 1px solid black;
+}
+#navbar{
+    height: 55px;
+    width: 92%;
+    /* border: 1px solid black; */
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+#logo{
+    height: 55px;
+    width: 13%;
+    /* border: 1px solid green; */
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 80px;
+}
+#navitom{
+    height: 55px;
+    width: 25%;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+ul{
+    list-style-type: none;
+}
+ul>li>a{
+    text-decoration: none;
+    margin: 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+#buuutonlogin{
+    height: 55px;
+    width: 52%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#buuutonlogin>div{
+    height: 55px;
+    width: 25vw;
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#buuutonlogin>i{
+    cursor: pointer;
+    /* margin-right: -70px; */
+
+}
+#buuutonlogin>ul>li>a{
+   font-weight: 500px;
+ /* margin-left: 100px; */
+}
+#buuutonlogin>div>button{
+    cursor: pointer;
+    padding: 8px 8px;
+    gap: 10px;
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(266.79deg, #0048FF 4.63%, #0096FF 100%);
+    border-radius: 52px;
+    border: none;
+    /* margin-right: -70px; */
+}
